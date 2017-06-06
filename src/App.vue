@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     hello lzx
+    <router-link to="/home">go to home</router-link>
     <router-link to="/foo">go to foo</router-link>
     <router-link to="/bar">go to bar</router-link>
     <router-view></router-view>
